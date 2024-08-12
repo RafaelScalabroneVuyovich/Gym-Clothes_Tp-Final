@@ -1,0 +1,42 @@
+/* General */
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: brown;
+    font-size: 120%;
+    background-color: black;
+}
+/* Para los artículos y sections */
+article,
+section{
+    background-color: #fff1;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/* Pié de pág */
+footer{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #333;
+    color: aliceblue;
+    width: 100%;
+
+}
+/* Estilo para las imgs */
+img{
+    width: 30vw;
+    align-self: center;
+}
+/* Color del fondo dentro de espacio para rellenar del formulario */
+.form-control{
+    background-color: rgb(83, 30, 30);
+}
